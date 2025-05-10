@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ru" class="lang-ru">
+<head>
+  <meta charset="UTF-8">
+  <title>LOFTdesign — Изготовление мебели на заказ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+
+<button id="scrollToTopBtn" title="Up">
+  <img src="assets/svg/arrow_up.svg" alt="Up">
+</button>
+
+<body>
+
+  
+  <header class="header">
+    <div class="main-container header__inner">
+      
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/svg/logo.svg" alt="LOFTdesign" />
+        </a>
+      </div>
+
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      
+      <div class="lang-switch">
+        <img src="assets/svg/language_square.svg" alt="Язык" class="lang-bg" />
+        <span class="active-lang">RU</span>
+      </div>
+    </div>
+
+    <button class="burger" aria-label="Открыть меню">
+      <img src="assets/svg/burger.svg" alt="menu">
+    </button>
+    
+  </header>
+
+  <div class="nav-overlay"></div>
+
+  
+  <section class="hero">
+    <div class="main-container hero__content">
+        
+        <div class="hero-anim" aria-hidden="true"></div>
+      <h1>Изготовление мебели на заказ</h1>
+
+      
+      <div class="subtitle-row">
+        <p class="subtitle">Индивидуальная мебель для вашего дома или офиса</p>
+        <img src="assets/svg/line_head.svg" alt="Линия" class="subtitle-line" />
+      </div>
+
+      
+      <div class="cta-social">
+        
+        <a href="#" class="cta-btn">
+          <img src="assets/svg/CTA1.svg" alt="CTA" class="cta-bg" />
+          <span class="cta-text">Оставить заявку</span>
+        </a>
+
+        
+        <div class="social-icons">
+          <a href="https://wa.me/37126090299" target="_blank">
+            <img src="assets/svg/whatsapp_icon1.svg" alt="WhatsApp" />
+          </a>
+          <a href="https://www.facebook.com/LOFTWEEDESIGN?mibextid=wwXIfr" target="_blank">
+            <img src="assets/svg/facebook_icon1.svg" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/loftdesign_sia/" target="_blank">
+            <img src="assets/svg/instagram_icon1.svg" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="about" id="about">
+    <div class="main-container">
+      
+  <div class="about-rectangle"></div>
+      <h2 class="about-title">О нас</h2>
+      <p class="about-text">
+        Мы создаем мебель на заказ, сочетая творческий подход, нестандартные решения 
+        и безупречное качество. Наши специалисты помогут вам подобрать идеальные 
+        модели, которые гармонично впишутся в ваш интерьер.
+      </p>
+    </div>
+  </section>
+
+  
+  <section class="how-we-work" id="how-we-work">
+    <div class="main-container">
+      <div class="work-heading">
+        <img src="assets/svg/line_head.svg" alt="Линия" class="work-line line-left" />
+        <h2 class="work-title">Как мы работаем</h2>
+        <img src="assets/svg/line_head.svg" alt="Линия" class="work-line line-right" />
+      </div>
+
+      <div class="work-steps">
+        <div class="work-step">
+          <img src="assets/svg/consultation_icon.svg" alt="Consultation" class="step-icon" />
+          <p class="step-text">Консультация</p>
+        </div>
+        <div class="work-step">
+          <img src="assets/svg/design_icon.svg" alt="Design" class="step-icon" />
+          <p class="step-text">Дизайн и расчет</p>
+        </div>
+        <div class="work-step">
+          <img src="assets/svg/production_icon.svg" alt="Production" class="step-icon" />
+          <p class="step-text">Производство</p>
+        </div>
+        <div class="work-step">
+          <img src="assets/svg/delivery_icon.svg" alt="Delivery" class="step-icon" />
+          <p class="step-text">Доставка и установка</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="projects" id="projects">
+    <div class="main-container">
+
+      <div class="projects-heading">
+        <img src="assets/svg/line_head.svg" alt="Линия" class="proj-line line-left">
+        <h2 class="projects-title">Наши проекты</h2>
+        <img src="assets/svg/line_head.svg" alt="Линия" class="proj-line line-right">
+      </div>
+
+      <div class="projects-categories">
+        <span data-category="Bathroom">Ванные Комнаты</span>
+        <span data-category="Kitchen">Кухни</span>
+        <span data-category="Wardrobe">Шкафы</span>
+        <span data-category="Hallway">Прихожие</span>
+        <span data-category="Table">Столы</span>
+      </div>
+
+      
+      <div class="projects-workbench">
+        <img src="assets/svg/waves.svg" alt="workbench" class="workbench-img">
+
+        
+        <div class="projects-gallery">
+          <div class="arrow projects-prev">
+            <img src="assets/svg/arrow_left.svg" alt="Left Arrow">
+          </div>
+          <div class="projects-images"></div>
+          <div class="arrow projects-next">
+            <img src="assets/svg/arrow_right.svg" alt="Right Arrow">
+          </div>
+        </div>
+
+        
+        <div class="projects-indicators-container">
+          <div class="projects-indicators"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="why-us" id="why-us">
+    <div class="main-container">
+      
+      
+      <div class="why-heading">
+        <img src="assets/svg/line_head.svg" alt="" class="why-line line-left" />
+        <h2 class="why-title">Почему выбирают нас?</h2>
+        <img src="assets/svg/line_head.svg" alt="" class="why-line line-right" />
+      </div>
+  
+      
+      <p class="why-subtitle">
+        Мы создаем мебель, которая идеально впишется в ваш интерьер!
+      </p>
+  
+      
+      <div class="why-block why1">
+        
+        <div class="why-rectangle why-left-rect"></div>
+        
+        <img src="assets/images/why_image_1.png" alt="Why Image 1" class="why-image why-image-right" />
+        
+        
+        <h3 class="why-small-title">Индивидуальный подход</h3>
+        <p class="why-text">
+          Проектируем мебель по вашим размерам и стилю. Работаем с любыми пожеланиями.
+        </p>
+      </div>
+  
+      
+      <div class="why-block why2">
+        <div class="why-rectangle why-right-rect"></div>
+        <img src="assets/images/why_image_2.png" alt="Why Image 2" class="why-image why-image-left" />
+        
+        <h3 class="why-small-title">Высококачественные материалы</h3>
+        <p class="why-text">
+          Используем только надежные и экологичные материалы, проверенные временем.  
+        </p>
+      </div>
+  
+      
+      <div class="why-block why3">
+        <div class="why-rectangle why-left-rect"></div>
+        <img src="assets/images/why_image_3.png" alt="Why Image 3" class="why-image why-image-right" />
+        
+        <h3 class="why-small-title">Полный цикл работ</h3>
+        <p class="why-text">
+          От идеи и дизайна до доставки и установки. Вам не нужно ни о чем беспокоиться. 
+        </p>
+      </div>
+  
+      
+      <div class="why-block why4">
+        <div class="why-rectangle why-right-rect"></div>
+        <img src="assets/images/why_image_4.png" alt="Why Image 4" class="why-image why-image-left" />
+        
+        <h3 class="why-small-title">Гарантия на мебель</h3>
+        <p class="why-text">
+          Мы уверены в качестве нашей работы, поэтому предоставляем гарантию на изделия.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+
+ 
+<section class="cooperation" id="cooperation">
+  <div class="main-container">
+
+    
+    <div class="cooperation-heading">
+      <img src="assets/svg/line_head.svg" alt="Линия" class="coop-line-left line-left" />
+      <h2 class="cooperation-title">Фурнитура и материалы, которые
+        мы используем</h2>
+      <img src="assets/svg/line_head.svg" alt="Линия" class="coop-line-right line-right" />
+    </div>
+
+    
+    <p class="cooperation-subtitle">
+      Мы сотрудничаем с ведущими производителями, чтобы обеспечить долговечность и стиль вашей мебели!
+    </p>
+
+    
+    
+    <div class="rectangle-logos-wrap">
+      
+      <img src="assets/svg/rectangle_logos.svg" alt="Rectangle Logos" class="rectangle-logos-bg" />
+
+      
+      <div class="rectangle-logos-logos">
+        
+        <img src="assets/images/franke_logo.png" alt="Franke" />
+        <img src="assets/images/gtv_logo.png" alt="GTV" />
+        <img src="assets/images/blum_logo.png" alt="Blum" />
+        <img src="assets/images/hafele_logo.png" alt="Hafele" />
+        <img src="assets/images/innovus_logo.png" alt="Innovus" />
+        <img src="assets/images/kronospan_logo.png" alt="Kronospan" />
+        <img src="assets/images/rehau_logo.png" alt="Rehau" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="cta-block" id="cta-block">
+   <div class="main-container">
+  <div class="cta-block__wrapper">
+    
+    <img src="assets/images/cta_panel.png" alt="CTA Panel" class="cta-panel-img" />
+
+    
+    <h2 class="cta-block-title">
+      Хотите обсудить проект?
+    </h2>
+
+    
+    <p class="cta-block-subtitle">
+      Оставьте свои контакты — мы перезвоним и поможем воплотить вашу идею в реальность!
+    </p>
+
+    
+    <a href="#" class="cta-btn cta-block-btn">
+      <img src="assets/svg/CTA1.svg" alt="CTA" class="cta-bg" />
+      <span class="cta-text">Оставить заявку</span>
+    </a>
+  </div>
+  </div>
+</section>
+
+
+<section class="reviews" id="reviews">
+  <div class="main-container">
+  <div class="reviews__wrapper">
+    <img src="assets/svg/background_rectangle.svg" alt="Reviews Background" class="reviews-bg" />
+
+    <h2 class="reviews-title">Отзывы наших клиентов</h2>
+
+    
+    <div class="reviews-slider">
+      <div class="review-block">
+        <div class="review-circle">
+          <img src="assets/svg/review_cirkle.svg" alt="Atsauksmes aplis" class="circle-bg" />
+          <img src="assets/images/review_images/client_1.png" alt="Klients 1" class="client-photo" />
+        </div>
+        <p class="review-name">Pēteris</p>
+        <p class="review-text">Strādā ātri, precīzi termiņos, īsti profesionāli</p>
+      </div>
+      <div class="review-block">
+        <div class="review-circle">
+          <img src="assets/svg/review_cirkle.svg" alt="Atsauksmes aplis" class="circle-bg" />
+          <img src="assets/images/review_images/client_2.png" alt="Klients 2" class="client-photo" />
+        </div>
+        <p class="review-name">Kristīne</p>
+        <p class="review-text">Noteikti iesaku! Labs serviss un kvalitāte! 😊👍</p>
+      </div>
+      <div class="review-block">
+        <div class="review-circle">
+          <img src="assets/svg/review_cirkle.svg" alt="Atsauksmes aplis" class="circle-bg" />
+          <img src="assets/images/review_images/client_3.png" alt="Klients 3" class="client-photo" />
+        </div>
+        <p class="review-name">Надежда</p>
+        <p class="review-text">Замечательные мастера своего дела,качество супер, делают быстро и с душой</p>
+      </div>
+      <div class="review-block">
+        <div class="review-circle">
+          <img src="assets/svg/review_cirkle.svg" alt="Atsauksmes aplis" class="circle-bg" />
+          <img src="assets/images/review_images/client_4.png" alt="Klients 4" class="client-photo" />
+        </div>
+        <p class="review-name">Agnese</p>
+        <p class="review-text">Paldies❤️ 
+Vienozīmīgi iesaku 👌 Kvalitāte 💯
+Paldies par Sapni ko piepildijāt🙏💐🥂
+Jūs esat Lieliski🙌</p>
+      </div>
+      <div class="review-block">
+        <div class="review-circle">
+          <img src="assets/svg/review_cirkle.svg" alt="Atsauksmes aplis" class="circle-bg" />
+          <img src="assets/images/review_images/client_5.png" alt="Klients 5" class="client-photo" />
+        </div>
+        <p class="review-name">Elīna</p>
+        <p class="review-text">Ļoti kvalitatīvi un skaisti paveikts darbs.</p>
+      </div>
+      <div class="review-block">
+        <div class="review-circle">
+          <img src="assets/svg/review_cirkle.svg" alt="Atsauksmes aplis" class="circle-bg" />
+          <img src="assets/images/review_images/client_6.png" alt="Klients 6" class="client-photo" />
+        </div>
+                <p class="review-name">Tanja</p>
+        <p class="review-text">Ļoti atsaucīgi un pretīmnākoši pret pasūtītāju vēlmēm.Darbs padarīts ātri , kvalitatīvi.Cenas ļoti draudzīgas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contacts" id="contacts">
+  <div class="main-container">
+    
+     <div class="contacts-heading">
+    <img src="assets/svg/line_head.svg" alt="" class="why-line line-left" />
+    <h2 class="contacts-title">Контакты и реквизиты</h2>
+    <img src="assets/svg/line_head.svg" alt="" class="why-line line-right" /> </div>
+
+    
+    <div class="contacts-block">
+      <div class="contacts-small-rects">
+        
+        <div class="small-rect">
+          <img src="assets/svg/small_contacts_rectangle.svg"
+               alt="SmallRect" class="rect-bg" />
+          <a href="https://maps.app.goo.gl/HyG8kxLi8aUM7GH3A" class="rect-link">
+            <img src="assets/svg/location_icon.svg" alt="Location" class="rect-icon" />
+            <span class="rect-text">Lapu iela 14, Jelgava</span>
+          </a>
+        </div>
+        
+        <div class="small-rect">
+          <img src="assets/svg/small_contacts_rectangle.svg"
+               alt="SmallRect" class="rect-bg" />
+          <a href="#" class="rect-link">
+            <img src="assets/svg/phone_icon.svg" alt="Phone" class="rect-icon" />
+            <a class="phone" href="tel:+37126090299">+371 26 090 299</a>
+          </a>
+        </div>
+        
+        <div class="small-rect">
+          <img src="assets/svg/small_contacts_rectangle.svg"
+               alt="SmallRect" class="rect-bg" />
+          <a href="mailto:info@loftdesign.lv" class="rect-link">
+            <img src="assets/svg/mail_icon.svg" alt="Mail" class="rect-icon" />
+            <span class="rect-text">info@loftdesign.lv</span>
+          </a>
+        </div>
+        
+        <div class="small-rect">
+          <img src="assets/svg/small_contacts_rectangle.svg"
+               alt="SmallRect" class="rect-bg" />
+          <a href="https://wa.me/37126090299" target="_blank" class="rect-link">
+            <img src="assets/svg/whatsapp_icon.svg" alt="WhatsApp" class="rect-icon" />
+            <span class="rect-text">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+      
+      <img src="assets/svg/big_contacts_rectangle.svg" alt="Big Contacts Rect"
+           class="contacts-big-rect" />
+      <div class="contacts-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d558.765994628785!2d23.737103872502857!3d56.63972910961855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ef2588fda024a9%3A0x8b0e6f3350215ac7!2s%22LOFTdesign%22%20SIA!5e1!3m2!1sru!2slv!4v1744320624881!5m2!1sru!2slv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      
+      <div class="contacts-left">
+        
+
+        
+<div class="contacts-col schedule">
+    <p class="contacts-subhead">Время работы сервиса:</p>
+    <p class="contacts-text">
+      П. 09:00-17:00<br>
+      В. 09:00-17:00<br>
+      С. 09:00-17:00<br>
+      Ч. 09:00-17:00<br>
+      П. 09:00-17:00<br>
+      С. закрыто<br>
+      Вс. закрыто
+    </p>
+  </div>
+
+  
+  <div class="contacts-col requisites">
+    <p class="contacts-subhead">Реквизиты:</p>
+    <p class="contacts-text">
+      SIA “LOFTdesign”<br>
+      Reģ.Nr. 43603092036<br>
+      Zirgu iela 12 – 48, Jelgava, LV-3001<br>
+      AS Swedbank<br>
+      LV70HABA0551048794607
+    </p>
+  </div>
+    </div>
+  </div>
+</section>
+
+
+  
+  <div class="lightbox-overlay" style="display:none;">
+    <div class="lightbox-content">
+      <div class="lightbox-close">
+        <img src="assets/svg/cross.svg" alt="Cross" class="cross">
+      </div>
+      <div class="lightbox-arrow lightbox-arrow-left">
+        <img src="assets/svg/arrow_left.svg" alt="Left Arrow">
+      </div>
+      <img src="" alt="Full" class="lightbox-img">
+      <div class="lightbox-arrow lightbox-arrow-right">
+        <img src="assets/svg/arrow_right.svg" alt="Right Arrow">
+      </div>
+    </div>
+  </div>
+
+  
+<div class="popup" id="requestForm">
+  <div class="popup-close">
+    <img src="assets/svg/cross.svg" alt="Close" class="cross">
+  </div>
+  <div class="popup-content">
+    <h2 class="popup-title">ЗАПОЛНИТЕ ФОРМУ</h2>
+    <p class="popup-subtitle">Мы свяжемся с вами в ближайшее время!</p>
+    
+    <form id="contactForm">
+      <div class="form-group">
+        <div class="input-container">
+          <input type="text" id="name" class="form-input" required>
+          <label for="name" class="form-label">Имя</label>
+          <img src="assets/svg/pop_up_line.svg" alt="Line" class="form-line">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="input-container">
+          <input type="tel" id="phone" class="form-input" required>
+          <label for="phone" class="form-label">Номер телефона</label>
+          <img src="assets/svg/pop_up_line.svg" alt="Line" class="form-line">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="input-container">
+          <input type="email" id="email" class="form-input" required>
+          <label for="email" class="form-label">E-mail</label>
+          <img src="assets/svg/pop_up_line.svg" alt="Line" class="form-line">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="textarea-container-big">
+          <textarea id="project" class="form-textarea" required></textarea>
+          <label for="project" class="form-textarea-label">Опишите ваш проект или пожелания</label>
+          <img src="assets/svg/pop_up_line.svg" alt="Line" class="form-line">
+        </div>
+      </div>
+      
+      <div class="checkbox-container">
+        <input type="checkbox" id="consent" required class="hidden-checkbox">
+        <div class="custom-checkbox">
+          <img src="assets/svg/checkbox.svg" alt="Checkbox" class="checkbox-unchecked">
+          <img src="assets/svg/checkbox_yes.svg" alt="Checkbox checked" class="checkbox-checked hidden">
+        </div>
+        <label for="consent" class="consent-label">Даю согласие на обработку персональных данных</label>
+      </div>
+      
+      <button type="submit" class="cta-btn popup-submit-btn" disabled>
+        <img src="assets/svg/CTA1.svg" alt="CTA" class="cta-bg-form">
+        <span class="cta-text-form">ОТПРАВИТЬ</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+
+<div class="popup" id="thankYouPopup">
+  <div class="popup-close">
+    <img src="assets/svg/cross.svg" alt="Close" class="cross">
+  </div>
+  <div class="popup-content thank-you-content">
+    <h2 class="thank-you-title">СПАСИБО!</h2>
+    <p class="thank-you-subtitle">Ваша заявка отправлена. Совсем скоро мы с вами свяжемся!</p>
+  </div>
+</div>
+
+
+<div class="popup-overlay"></div>
+
+  
+  <script src="script.js"></script>
+
+  
+
+
+<footer class="footer">
+  <div class="main-container footer__inner">
+    
+    
+    <div class="footer-logo">
+      <a href="index.html">
+        <img src="assets/svg/logo_footer.svg" alt="LOFTdesign" />
+      </a>
+    </div>
+
+    
+    <div class="footer-info">
+      <p class="copyright">© 2023 LOFTdesign. Все права защищены.</p>
+    </div>
+
+  </div>
+</footer>
+
+<script>
+document.querySelector('.lang-switch').addEventListener('click', function() {
+  const lang = document.documentElement.lang;
+  if (lang === 'ru') {
+    window.location.href = 'index.html';
+  }
+});
+</script>
+
+</body>
+</html>
