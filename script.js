@@ -267,7 +267,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const checkedImg    = document.querySelector('.checkbox-checked');
   const uncheckedImg  = document.querySelector('.checkbox-unchecked');
 
-  
+  document.querySelector('.footer-privacy').addEventListener('click', e=>{
+  e.preventDefault();
+  openModal( document.getElementById('privacyPopup') );
+});
   
   
   function openModal(modal) {
@@ -371,15 +374,15 @@ document.addEventListener('DOMContentLoaded', () => {
   
   closeButtons.forEach(button => {
     button.addEventListener('click', function() {
-      closeModal(requestForm);
-      closeModal(thankYouPopup);
+      const modal = button.closest('.popup');
+      if (modal) closeModal(modal);
     });
   });
   
   
   overlay.addEventListener('click', function() {
-    closeModal(requestForm);
-    closeModal(thankYouPopup);
+    document.querySelectorAll('.popup.active')
+    .forEach(popup => closeModal(popup));
   });
   
   

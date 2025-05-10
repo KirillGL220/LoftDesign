@@ -1428,7 +1428,7 @@ top: 200px;
 .copyright {
   font-size: 14px;
   color: #777;
-  margin-bottom: -20px;
+  
 }
 .made-with-love {
   font-size: 14px;
@@ -1779,6 +1779,38 @@ body {
   cursor:pointer;
 }
 
+.footer-privacy{
+  flex:1;                       
+  text-align:center;
+  font-size:16px;
+  color:#777;
+  text-decoration:none;
+  transition:color .3s;
+}
+.footer-privacy:hover{ color:#FF914D; }
+
+#privacyPopup.popup.active{
+  width:629px; height:900px;
+  background-image:url('assets/svg/pop_up_background.svg');
+}
+.privacy-content{ width:467px; margin:0 auto; }
+.privacy-scroll{
+  margin-top:40px;
+  max-height:640px;
+  overflow-y:auto;
+  font-size:16px;
+  line-height:1.5;
+}
+.privacy-scroll ul{ margin:10px 0 10px 20px; list-style:disc; }
+
+.ete-link{
+  color:#ccc;
+  text-decoration:none;
+  transition:color .3s;
+}
+.ete-link:hover{ color:#FF914D;
+
+}
 
 @media (max-width: 1250px) {
 
@@ -2518,10 +2550,26 @@ top: 90px;
 
 .copyright {
   font-size: 14px;
-  margin-bottom: -20px;
+  text-align: center;
+
 }
 
+.footer-privacy{
+  font-size:14px;
+}
 
+  .footer__inner{
+    display:flex;              
+    flex-direction:column;     
+    align-items:center;        
+    gap:20px;                  
+    text-align:center;         
+  }
+
+ 
+  .footer__inner > *{
+    width:auto;                
+  }
 
 .projects-images { width: 310px; }                 
 .projects-images .proj-img {
@@ -2601,6 +2649,9 @@ flex-direction: column;
             z-index: -1;
         }
 
+          #privacyPopup.popup.active{ width:90vw; height:90vh; }
+  .privacy-content{ width:80%; }
+  .privacy-scroll{ max-height:65vh; }
 
 }
 
