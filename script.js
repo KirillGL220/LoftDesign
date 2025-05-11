@@ -40,7 +40,7 @@ const $catSpans    = $('.projects-categories span');
 const $projPrev    = $('.projects-prev');            
 const $projNext    = $('.projects-next');
 
-let currentCategory = 'Bathroom';
+let currentCategory = 'Kitchen';
 
 
 function buildProjectsSlider(cat){
@@ -116,7 +116,7 @@ $catSpans.on('click', function(){
 });
 
 
-$(document).ready(()=> buildProjectsSlider('Bathroom'));
+$(document).ready(()=> buildProjectsSlider('Kitchen'));
 
 
 const lightboxOverlay   = document.querySelector('.lightbox-overlay');
