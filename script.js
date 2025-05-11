@@ -1,8 +1,8 @@
 
 const projectImages = {
-    Bathroom: ['bathroom_1','bathroom_2','bathroom_3','bathroom_4','bathroom_5','bathroom_6','bathroom_7','bathroom_8'],
+    Bathroom: ['bathroom_1','bathroom_2','bathroom_3','bathroom_4','bathroom_5','bathroom_6','bathroom_7','bathroom_8','bathroom_9'],
     Kitchen: ['kitchen_1', 'kitchen_2', 'kitchen_3', 'kitchen_4', 'kitchen_5', 'kitchen_6', 'kitchen_7', 'kitchen_8', 'kitchen_9', 'kitchen_10',
-'kitchen_11', 'kitchen_12', 'kitchen_13', 'kitchen_14', 'kitchen_15', 'kitchen_16', 'kitchen_17', 'kitchen_18', 'kitchen_19', 'kitchen_20',
+'kitchen_11', 'kitchen_12', 'kitchen_13', 'kitchen_16', 'kitchen_17', 'kitchen_18', 'kitchen_19', 'kitchen_20',
 'kitchen_21', 'kitchen_22', 'kitchen_23', 'kitchen_24', 'kitchen_25', 'kitchen_26', 'kitchen_27', 'kitchen_28', 'kitchen_29', 'kitchen_30',
 'kitchen_31', 'kitchen_32', 'kitchen_33', 'kitchen_34', 'kitchen_35', 'kitchen_36', 'kitchen_37', 'kitchen_38', 'kitchen_39', 'kitchen_40',
 'kitchen_41', 'kitchen_42', 'kitchen_43', 'kitchen_44', 'kitchen_45', 'kitchen_46', 'kitchen_47', 'kitchen_48', 'kitchen_49', 'kitchen_50',
