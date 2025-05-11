@@ -1,17 +1,16 @@
 
 const projectImages = {
-    Bathroom: ['bathroom_1','bathroom_2','bathroom_3','bathroom_4','bathroom_5','bathroom_6','bathroom_7','bathroom_8','bathroom_9'],
+    Bathroom: ['bathroom_1','bathroom_2','bathroom_3','bathroom_4','bathroom_5','bathroom_6','bathroom_7','bathroom_8','bathroom_9','bathroom_10'],
     Kitchen: ['kitchen_1', 'kitchen_2', 'kitchen_3', 'kitchen_4', 'kitchen_5', 'kitchen_6', 'kitchen_7', 'kitchen_8', 'kitchen_9', 'kitchen_10',
-'kitchen_11', 'kitchen_12', 'kitchen_13', 'kitchen_16', 'kitchen_17', 'kitchen_18', 'kitchen_19', 'kitchen_20',
+'kitchen_11', 'kitchen_12', 'kitchen_13', 'kitchen_14', 'kitchen_15','kitchen_16','kitchen_17', 'kitchen_18', 'kitchen_19', 'kitchen_20',
 'kitchen_21', 'kitchen_22', 'kitchen_23', 'kitchen_24', 'kitchen_25', 'kitchen_26', 'kitchen_27', 'kitchen_28', 'kitchen_29', 'kitchen_30',
 'kitchen_31', 'kitchen_32', 'kitchen_33', 'kitchen_34', 'kitchen_35', 'kitchen_36', 'kitchen_37', 'kitchen_38', 'kitchen_39', 'kitchen_40',
 'kitchen_41', 'kitchen_42', 'kitchen_43', 'kitchen_44', 'kitchen_45', 'kitchen_46', 'kitchen_47', 'kitchen_48', 'kitchen_49', 'kitchen_50',
-'kitchen_51', 'kitchen_52', 'kitchen_53', 'kitchen_54', 'kitchen_55', 'kitchen_56', 'kitchen_57', 'kitchen_58', 'kitchen_59', 'kitchen_60',
-'kitchen_61'],
+'kitchen_52', 'kitchen_53', 'kitchen_54', 'kitchen_55', 'kitchen_56', 'kitchen_57', 'kitchen_58'],
     Wardrobe: ['wardrobe_1', 'wardrobe_2', 'wardrobe_3', 'wardrobe_4', 'wardrobe_5', 'wardrobe_6', 'wardrobe_7', 'wardrobe_8', 'wardrobe_9', 'wardrobe_10',
 'wardrobe_11', 'wardrobe_12', 'wardrobe_13', 'wardrobe_14', 'wardrobe_15', 'wardrobe_16', 'wardrobe_17', 'wardrobe_18', 'wardrobe_19', 'wardrobe_20',
 'wardrobe_21', 'wardrobe_22', 'wardrobe_23', 'wardrobe_24', 'wardrobe_25', 'wardrobe_26', 'wardrobe_27', 'wardrobe_28', 'wardrobe_29', 'wardrobe_30',
-'wardrobe_31', 'wardrobe_32', 'wardrobe_33', 'wardrobe_34', 'wardrobe_35', 'wardrobe_36', 'wardrobe_37', 'wardrobe_38', 'wardrobe_39', 'wardrobe_40'],
+'wardrobe_31', 'wardrobe_32', 'wardrobe_33', 'wardrobe_34', 'wardrobe_35', 'wardrobe_36', 'wardrobe_37', 'wardrobe_38', 'wardrobe_39', 'wardrobe_40', 'wardrobe_41'],
     Hallway: ['hallway_1','hallway_2','hallway_3','hallway_4','hallway_5','hallway_6', 'hallway_7', 'hallway_8', 'hallway_9', 'hallway_10', 'hallway_11',],
     Table: ['table_1', 'table_2', 'table_3', 'table_4', 'table_5', 'table_6', 'table_7', 'table_8', 'table_9']
   };
