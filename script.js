@@ -81,6 +81,7 @@ projectImages[cat].forEach((_, i)=>{
     arrows: false,
     waitForAnimate:false,            
     dots: false,
+    initialSlide:1,
     speed: 800,
     responsive: [{
       breakpoint: 781,
